@@ -1,38 +1,123 @@
-.App {
-  text-align: center;
+* {
+	margin: 0;
+	padding: 0;
+}
+.main_div {
+	background: rgb(74, 167, 136);
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.center_div {
+    width: 90%;
+    height: 100vh;
+	background: #fff;
+	border-radius: 20px;
+	margin: 10px 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+h1 {
+	background: transparent;
+	background-color: blueviolet;
+	color: #fff;
+	margin-bottom: 10px;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+input {
+	text-align: center;
+	width: 40%;
+	height: 30px;
+	border: none;
+	background: transparent;
+	border-bottom: 2px solid black;
+	outline: none;
+	font-size: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.plusBtn {
+	text-align: center;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	border-color: transparent;
+	background: blueviolet;
+	border: none;
+	outline: none;
+	margin-left: 20px;
+	font-size: 40px;
+	color: white;
+	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
-
-.App-link {
-  color: #61dafb;
+.plusBtn:hover {
+	background: green;
 }
+ul {
+	margin-top: 30px;
+	align-items: center;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+ul li {
+	font-size: 22px;
+	list-style: none;
+	text-align: left;
+	display: flex;
+	font-weight: 500;
+	align-items: center;
+	color: blueviolet;
+	text-transform: capitalize;
+	margin-left: 25px;
+	margin-bottom: 10px;
+}
+.ToDoList_style {
+	display: flex;
+	margin-left: 12px;
+}
+.closeBtn {
+	border-radius: 15px;
+	background: blueviolet;
+	width: 40px;
+	height: 30px;
+}
+.closeBtn:hover {
+	background: red;
+	cursor: pointer;
+}
+.done {
+	border-radius: 5px;
+	background: blueviolet;
+	width: 60px;
+	height: 30px;
+	margin: 0 10px;
+}
+.done:hover {
+	background: green;
+	cursor: pointer;
+}
+.notdone {
+	border-radius: 5px;
+	background: blueviolet;
+	width: 73px;
+	height: 30px;
+}
+.notdone:hover {
+	background: orange;
+	cursor: pointer;
+}
+.myBtn {
+	margin: 0 10px;
+    background: lightgreen;
+    width: 116px;
+    height: 30px;
+    border: none;
+}
+.myBtn:hover{
+	background: orangered;
+	border: none;
+}
+.listBtn {
+	display: flex;
+	justify-content: center;
 }

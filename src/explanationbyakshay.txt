@@ -1,0 +1,26 @@
+derived state,
+original state
+
+Items
+
+completedItems
+activeItems
+
+we try to keep original data in state and all the derived data from state is computed
+during render
+
+
+
+let arr = [1,2,[3,4], [[5]], ["x", 6], [7, '7']])
+
+function findSum(arr) {
+    //returns sum of the numbers present in array
+    // here it is 28
+    tempvar =0 ;
+
+    map.
+    if(e == isnumber ){
+    tempvar = tempvar + e;
+    }
+}
+
