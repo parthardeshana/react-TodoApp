@@ -3,7 +3,8 @@
 	padding: 0;
 }
 .main_div {
-	background: rgb(74, 167, 136);
+	background: #52a078;
+	background: rgb(255, 225, 225);
 	width: 100%;
 	height: 100vh;
 	display: flex;
@@ -18,11 +19,13 @@
 	background: #fff;
 	border-radius: 20px;
 	margin: 10px 0;
+	overflow: scroll;
 }
 
-h1 {
+h2 {
 	background: transparent;
-	background-color: blueviolet;
+	background-color: #52a078;
+	padding: 20px 10px;
 	color: #fff;
 	margin-bottom: 10px;
 	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
@@ -41,69 +44,62 @@ input {
 	text-align: center;
 	height: 40px;
 	width: 40px;
-	border-radius: 20px;
+    font-weight: bold;
+	border-radius: 50%;
 	border-color: transparent;
-	background: blueviolet;
+	background: #52a078;
 	border: none;
 	outline: none;
 	margin-left: 20px;
-	font-size: 40px;
+	font-size: 30px;
 	color: white;
 	box-shadow: 5px 5px 15px -5px rgba(0, 0, 0, 0.3);
 }
 .plusBtn:hover {
 	background: green;
 }
-ul {
-	margin-top: 30px;
-	align-items: center;
 
-}
 ul li {
 	font-size: 22px;
 	list-style: none;
 	text-align: left;
-	display: flex;
 	font-weight: 500;
 	align-items: center;
-	color: blueviolet;
+	color: #52a078;
 	text-transform: capitalize;
 	margin-left: 25px;
 	margin-bottom: 10px;
 }
-.ToDoList_style {
-	display: flex;
-	margin-left: 12px;
+.addBtn {
+	font-size: 50px;
+	color: #52a078;
+}
+.addBtn:hover {
+	color: #2b5a42;
+}
+.icons {
+	margin: 8px;
 }
 .closeBtn {
-	border-radius: 15px;
-	background: blueviolet;
-	width: 40px;
-	height: 30px;
+	font-size: 25px;
+	color: #52a078;
 }
 .closeBtn:hover {
-	background: red;
-	cursor: pointer;
+	color: red;
 }
 .done {
-	border-radius: 5px;
-	background: blueviolet;
-	width: 60px;
-	height: 30px;
-	margin: 0 10px;
+	font-size: 25px;
+	color: #52a078;
 }
 .done:hover {
-	background: green;
-	cursor: pointer;
+	color: green;
 }
-.notdone {
-	border-radius: 5px;
-	background: blueviolet;
-	width: 73px;
-	height: 30px;
+.active {
+	font-size: 25px;
+	color: #52a078;
 }
-.notdone:hover {
-	background: orange;
+.active:hover  {
+	color: orange;
 	cursor: pointer;
 }
 .myBtn {
