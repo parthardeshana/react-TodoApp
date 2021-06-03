@@ -40,7 +40,7 @@ function App() {
 		console.log("aaaa", inputList);
 		if (inputList !== "" && inputList !== " ") {
 			setItems((oldItems) => {
-				return [...oldItems, { title: inputList, completed: false }];
+				return [{ title: inputList, completed: false }, ...oldItems];
 			});
 		} else {
 			console.log("Empty!! please add items ");
